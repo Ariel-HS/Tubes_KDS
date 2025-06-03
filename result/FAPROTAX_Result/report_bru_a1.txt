@@ -1,0 +1,1821 @@
+# Report for collapsed table: out_bru_a1.tsv
+# Collapsed table generated on: 2025.06.03 09:14:06
+# Original table: species_bru_a1.tsv
+# Details:
+#  Original classical table contained 2249 rows and 2 columns
+#  After filtering rows & columns, obtained a table containing 2249 rows & 1 columns
+#  After (potentially) filtering out records based on name, obtained a table comprising 2249 records & 1 data entries per record
+# Used command:
+#   collapse_table.py -i species_bru_a1.tsv -o out_bru_a1.tsv -g FAPROTAX.txt -d organism -v -r report_bru_a1.txt -f
+#
+# Summary of group assignments:
+#   methanotrophy: 22 records
+#   acetoclastic_methanogenesis: 0 records
+#   methanogenesis_by_disproportionation_of_methyl_groups: 0 records
+#   methanogenesis_using_formate: 0 records
+#   methanogenesis_by_CO2_reduction_with_H2: 0 records
+#   methanogenesis_by_reduction_of_methyl_compounds_with_H2: 0 records
+#   hydrogenotrophic_methanogenesis: 0 records
+#   methanogenesis: 0 records
+#   methanol_oxidation: 12 records
+#   methylotrophy: 34 records
+#   aerobic_ammonia_oxidation: 0 records
+#   aerobic_nitrite_oxidation: 1 records
+#   nitrification: 1 records
+#   sulfate_respiration: 7 records
+#   sulfur_respiration: 8 records
+#   dark_sulfite_oxidation: 1 records
+#   sulfite_respiration: 5 records
+#   thiosulfate_respiration: 5 records
+#   respiration_of_sulfur_compounds: 17 records
+#   arsenate_detoxification: 4 records
+#   arsenate_respiration: 0 records
+#   dissimilatory_arsenate_reduction: 4 records
+#   arsenite_oxidation_detoxification: 3 records
+#   arsenite_oxidation_energy_yielding: 0 records
+#   dissimilatory_arsenite_oxidation: 3 records
+#   anammox: 0 records
+#   nitrate_denitrification: 15 records
+#   nitrite_denitrification: 15 records
+#   nitrous_oxide_denitrification: 0 records
+#   denitrification: 16 records
+#   chitinolysis: 9 records
+#   knallgas_bacteria: 3 records
+#   dark_hydrogen_oxidation: 18 records
+#   nitrogen_fixation: 24 records
+#   nitrate_ammonification: 7 records
+#   nitrite_ammonification: 7 records
+#   nitrite_respiration: 25 records
+#   cellulolysis: 20 records
+#   xylanolysis: 17 records
+#   dark_sulfide_oxidation: 2 records
+#   dark_sulfur_oxidation: 8 records
+#   dark_thiosulfate_oxidation: 18 records
+#   dark_oxidation_of_sulfur_compounds: 20 records
+#   manganese_oxidation: 4 records
+#   manganese_respiration: 6 records
+#   ligninolysis: 4 records
+#   fermentation: 78 records
+#   aerobic_chemoheterotrophy: 109 records
+#   invertebrate_parasites: 5 records
+#   human_pathogens_septicemia: 3 records
+#   human_pathogens_pneumonia: 4 records
+#   human_pathogens_nosocomia: 3 records
+#   human_pathogens_meningitis: 0 records
+#   human_pathogens_gastroenteritis: 1 records
+#   human_pathogens_diarrhea: 1 records
+#   human_pathogens_all: 32 records
+#   fish_parasites: 0 records
+#   human_gut: 21 records
+#   human_associated: 52 records
+#   mammal_gut: 21 records
+#   animal_parasites_or_symbionts: 58 records
+#   plant_pathogen: 19 records
+#   oil_bioremediation: 2 records
+#   aromatic_hydrocarbon_degradation: 9 records
+#   aromatic_compound_degradation: 19 records
+#   aliphatic_non_methane_hydrocarbon_degradation: 6 records
+#   hydrocarbon_degradation: 36 records
+#   dark_iron_oxidation: 12 records
+#   iron_respiration: 14 records
+#   nitrate_respiration: 44 records
+#   nitrate_reduction: 94 records
+#   nitrogen_respiration: 46 records
+#   fumarate_respiration: 8 records
+#   intracellular_parasites: 0 records
+#   chlorate_reducers: 1 records
+#   predatory_or_exoparasitic: 0 records
+#   chloroplasts: 0 records
+#   nonphotosynthetic_cyanobacteria: 0 records
+#   photosynthetic_cyanobacteria: 0 records
+#   anoxygenic_photoautotrophy_H2_oxidizing: 3 records
+#   anoxygenic_photoautotrophy_S_oxidizing: 6 records
+#   anoxygenic_photoautotrophy_Fe_oxidizing: 1 records
+#   anoxygenic_photoautotrophy: 7 records
+#   oxygenic_photoautotrophy: 0 records
+#   photoautotrophy: 7 records
+#   aerobic_anoxygenic_phototrophy: 9 records
+#   photoheterotrophy: 17 records
+#   phototrophy: 20 records
+#   plastic_degradation: 8 records
+#   ureolysis: 30 records
+#   reductive_acetogenesis: 9 records
+#   chemoheterotrophy: 254 records
+#
+# Loaded 92 groups comprising 8354 members (5060 unique members)
+# Established 1434 assignments of records to groups
+# 421 out of 2249 records (18.7194 %) were assigned to at least one group
+# 1828 out of 2249 records (81.2806 %) could not be assigned to any group (leftovers)
+# 72 groups were represented (i.e. associated with at least one record)
+# Detailed group assignments are listed below
+
+# methanotrophy (22 records):
+    Methylobacter_luteus
+    Methylobacter_marinus
+    Methylobacter_whittenburyi
+    Methylocaldum_gracile
+    Methylocaldum_szegediense
+    Methylocaldum_tepidum
+    Methylocapsa_acidiphila
+    Methylocapsa_palsarum
+    Methylocella_palustris
+    Methylocella_silvestris
+    Methylocella_tundrae
+    Methylococcus_capsulatus
+    Methylococcus_geothermalis
+    Methylocystis_bryophila
+    Methylocystis_echinoides
+    Methylocystis_heyeri
+    Methyloferula_stellata
+    Methylomicrobium_album
+    Methylomicrobium_lacus
+    Methylomonas_methanica
+    Methylosarcina_fibrata
+    Methylosarcina_quisquiliarum
+
+
+# acetoclastic_methanogenesis (0 records):
+
+
+# methanogenesis_by_disproportionation_of_methyl_groups (0 records):
+
+
+# methanogenesis_using_formate (0 records):
+
+
+# methanogenesis_by_CO2_reduction_with_H2 (0 records):
+
+
+# methanogenesis_by_reduction_of_methyl_compounds_with_H2 (0 records):
+
+
+# hydrogenotrophic_methanogenesis (0 records):
+
+
+# methanogenesis (0 records):
+
+
+# methanol_oxidation (12 records):
+    Arthrobacter_globiformis
+    Methylibium_petroleiphilum
+    Methylobacillus_flagellatus
+    Methylobacillus_glycogenes
+    Methylophilus_aquaticus
+    Methylophilus_leisingeri
+    Methylophilus_methylotrophus
+    Methylophilus_rhizosphaerae
+    Methylovirgula_ligni
+    Paracoccus_alcaliphilus
+    Pseudomonas_oleovorans
+    Sporomusa_malonica
+
+
+# methylotrophy (34 records):
+    Arthrobacter_globiformis
+    Methylibium_petroleiphilum
+    Methylobacillus_flagellatus
+    Methylobacillus_glycogenes
+    Methylobacter_luteus
+    Methylobacter_marinus
+    Methylobacter_whittenburyi
+    Methylocaldum_gracile
+    Methylocaldum_szegediense
+    Methylocaldum_tepidum
+    Methylocapsa_acidiphila
+    Methylocapsa_palsarum
+    Methylocella_palustris
+    Methylocella_silvestris
+    Methylocella_tundrae
+    Methylococcus_capsulatus
+    Methylococcus_geothermalis
+    Methylocystis_bryophila
+    Methylocystis_echinoides
+    Methylocystis_heyeri
+    Methyloferula_stellata
+    Methylomicrobium_album
+    Methylomicrobium_lacus
+    Methylomonas_methanica
+    Methylophilus_aquaticus
+    Methylophilus_leisingeri
+    Methylophilus_methylotrophus
+    Methylophilus_rhizosphaerae
+    Methylosarcina_fibrata
+    Methylosarcina_quisquiliarum
+    Methylovirgula_ligni
+    Paracoccus_alcaliphilus
+    Pseudomonas_oleovorans
+    Sporomusa_malonica
+
+
+# aerobic_ammonia_oxidation (0 records):
+
+
+# aerobic_nitrite_oxidation (1 records):
+    Nitrolancea_hollandica
+
+
+# nitrification (1 records):
+    Nitrolancea_hollandica
+
+
+# sulfate_respiration (7 records):
+    Dechloromonas_denitrificans
+    Desulfomicrobium_norvegicum
+    Desulfonatronovibrio_halophilus
+    Desulfonatronovibrio_magnus
+    Desulfosoma_caldarium
+    Desulfosoma_profundi
+    Thermodesulfobium_acidiphilum
+
+
+# sulfur_respiration (8 records):
+    Desulfomicrobium_norvegicum
+    Desulfovibrio_cuneatus
+    Desulfurispirillum_alkaliphilum
+    Geoalkalibacter_ferrihydriticus
+    Geoalkalibacter_subterraneus
+    Geopsychrobacter_electrodiphilus
+    Nautilia_abyssi
+    Wolinella_succinogenes
+
+
+# dark_sulfite_oxidation (1 records):
+    Desulfovibrio_cuneatus
+
+
+# sulfite_respiration (5 records):
+    Desulfomicrobium_baculatum
+    Desulfonatronovibrio_magnus
+    Desulforhopalus_vacuolatus
+    Thermus_thermophilus
+    Wolinella_succinogenes
+
+
+# thiosulfate_respiration (5 records):
+    Desulfonatronovibrio_halophilus
+    Desulfonatronovibrio_magnus
+    Desulfosoma_profundi
+    Desulfovibrio_cuneatus
+    Thermodesulfobium_acidiphilum
+
+
+# respiration_of_sulfur_compounds (17 records):
+    Dechloromonas_denitrificans
+    Desulfomicrobium_baculatum
+    Desulfomicrobium_norvegicum
+    Desulfonatronovibrio_halophilus
+    Desulfonatronovibrio_magnus
+    Desulforhopalus_vacuolatus
+    Desulfosoma_caldarium
+    Desulfosoma_profundi
+    Desulfovibrio_cuneatus
+    Desulfurispirillum_alkaliphilum
+    Geoalkalibacter_ferrihydriticus
+    Geoalkalibacter_subterraneus
+    Geopsychrobacter_electrodiphilus
+    Nautilia_abyssi
+    Thermodesulfobium_acidiphilum
+    Thermus_thermophilus
+    Wolinella_succinogenes
+
+
+# arsenate_detoxification (4 records):
+    Acidiphilium_multivorum
+    Geobacillus_kaustophilus
+    Herminiimonas_arsenicoxydans
+    Staphylococcus_succinus
+
+
+# arsenate_respiration (0 records):
+
+
+# dissimilatory_arsenate_reduction (4 records):
+    Acidiphilium_multivorum
+    Geobacillus_kaustophilus
+    Herminiimonas_arsenicoxydans
+    Staphylococcus_succinus
+
+
+# arsenite_oxidation_detoxification (3 records):
+    Agrobacterium_tumefaciens
+    Herminiimonas_arsenicoxydans
+    Thermus_thermophilus
+
+
+# arsenite_oxidation_energy_yielding (0 records):
+
+
+# dissimilatory_arsenite_oxidation (3 records):
+    Agrobacterium_tumefaciens
+    Herminiimonas_arsenicoxydans
+    Thermus_thermophilus
+
+
+# anammox (0 records):
+
+
+# nitrate_denitrification (15 records):
+    Acidovorax_temperans
+    Azospirillum_brasilense
+    Bradyrhizobium_japonicum
+    Dechloromonas_denitrificans
+    Denitratisoma_oestradiolicum
+    Georgfuchsia_toluolica
+    Iamia_majanohamensis
+    Nisaea_denitrificans
+    Nitratiruptor_tergarcus
+    Pannonibacter_phragmitetus
+    Pseudomonas_aeruginosa
+    Rugamonas_rubra
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Thiobacillus_denitrificans
+
+
+# nitrite_denitrification (15 records):
+    Acidovorax_temperans
+    Azospirillum_brasilense
+    Bradyrhizobium_japonicum
+    Dechloromonas_denitrificans
+    Denitratisoma_oestradiolicum
+    Georgfuchsia_toluolica
+    Iamia_majanohamensis
+    Nisaea_denitrificans
+    Nitratiruptor_tergarcus
+    Pannonibacter_phragmitetus
+    Pseudomonas_aeruginosa
+    Rugamonas_rubra
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Thiobacillus_denitrificans
+
+
+# nitrous_oxide_denitrification (0 records):
+
+
+# denitrification (16 records):
+    Acidovorax_temperans
+    Azospirillum_brasilense
+    Bradyrhizobium_japonicum
+    Dechloromonas_denitrificans
+    Denitratisoma_oestradiolicum
+    Georgfuchsia_toluolica
+    Iamia_majanohamensis
+    Nisaea_denitrificans
+    Nitratiruptor_tergarcus
+    Pannonibacter_phragmitetus
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+    Rugamonas_rubra
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Thiobacillus_denitrificans
+
+
+# chitinolysis (9 records):
+    Bacillus_cereus
+    Chitinibacter_tainanensis
+    Chitinophaga_ginsengisoli
+    Chitinophaga_pinensis
+    Delftia_lacustris
+    Janthinobacterium_lividum
+    Saccharophagus_degradans
+    Stenotrophomonas_maltophilia
+    Streptomyces_eurythermus
+
+
+# knallgas_bacteria (3 records):
+    Anaeromyxobacter_dehalogenans
+    Aquifex_pyrophilus
+    Nitratiruptor_tergarcus
+
+
+# dark_hydrogen_oxidation (18 records):
+    Anaeromyxobacter_dehalogenans
+    Aquifex_pyrophilus
+    Dehalococcoides_mccartyi
+    Dehalogenimonas_alkenigignens
+    Desulfonatronovibrio_halophilus
+    Desulfonatronovibrio_magnus
+    Desulfosoma_caldarium
+    Desulfovibrio_cuneatus
+    Eubacterium_oxidoreducens
+    Geoalkalibacter_subterraneus
+    Herbaspirillum_autotrophicum
+    Nautilia_abyssi
+    Nitratiruptor_tergarcus
+    Orenia_metallireducens
+    Sulfuritalea_hydrogenivorans
+    Thermodesulfobium_acidiphilum
+    Wolinella_succinogenes
+    Xanthobacter_oligotrophicus
+
+
+# nitrogen_fixation (24 records):
+    Azospirillum_brasilense
+    Azotobacter_vinelandii
+    Bradyrhizobium_japonicum
+    Bradyrhizobium_oligotrophicum
+    Burkholderia_cepacia
+    Clostridium_pasteurianum
+    Derxia_gummosa
+    Gluconacetobacter_diazotrophicus
+    Herbaspirillum_seropedicae
+    Methylocapsa_acidiphila
+    Methylocella_palustris
+    Methylocella_silvestris
+    Methylocella_tundrae
+    Methylomonas_methanica
+    Methylovirgula_ligni
+    Orenia_salinaria
+    Pleomorphomonas_diazotrophica
+    Rhizobium_giardinii
+    Rhizobium_leguminosarum
+    Rhizobium_tropici
+    Rhodopseudomonas_palustris
+    Thiococcus_pfennigii
+    Thiorhodococcus_minor
+    Tistlia_consotensis
+
+
+# nitrate_ammonification (7 records):
+    Anaeromyxobacter_dehalogenans
+    Arthrobacter_globiformis
+    Bacillus_subtilis
+    Desulfurispirillum_alkaliphilum
+    Enterobacter_cloacae
+    Thermovibrio_ammonificans
+    Wolinella_succinogenes
+
+
+# nitrite_ammonification (7 records):
+    Anaeromyxobacter_dehalogenans
+    Arthrobacter_globiformis
+    Bacillus_subtilis
+    Desulfurispirillum_alkaliphilum
+    Enterobacter_cloacae
+    Thermovibrio_ammonificans
+    Wolinella_succinogenes
+
+
+# nitrite_respiration (25 records):
+    Acidovorax_temperans
+    Anaeromyxobacter_dehalogenans
+    Arthrobacter_globiformis
+    Azospirillum_brasilense
+    Bacillus_subtilis
+    Bradyrhizobium_japonicum
+    Dechloromonas_denitrificans
+    Denitratisoma_oestradiolicum
+    Desulfurispirillum_alkaliphilum
+    Enterobacter_cloacae
+    Geobacillus_thermodenitrificans
+    Georgfuchsia_toluolica
+    Iamia_majanohamensis
+    Nisaea_denitrificans
+    Nisaea_nitritireducens
+    Nitratiruptor_tergarcus
+    Pannonibacter_phragmitetus
+    Pseudomonas_aeruginosa
+    Pseudomonas_chlororaphis
+    Rugamonas_rubra
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Thermovibrio_ammonificans
+    Thiobacillus_denitrificans
+    Wolinella_succinogenes
+
+
+# cellulolysis (20 records):
+    [Clostridium]_herbivorans
+    Acidothermus_cellulolyticus
+    Actinotalea_fermentans
+    Archangium_gephyra
+    Bacillus_subtilis
+    Byssovorax_cruenta
+    Clostridium_carboxidivorans
+    Clostridium_drakei
+    Cytophaga_hutchinsonii
+    Fervidobacterium_riparium
+    Fibrobacter_succinogenes
+    Pseudomonas_fluorescens
+    Rhodothermus_marinus
+    Ruminococcus_champanellensis
+    Ruminococcus_flavefaciens
+    Saccharophagus_degradans
+    Sorangium_cellulosum
+    Sporocytophaga_myxococcoides
+    Telmatobacter_bradus
+    Thermoanaerobacter_thermocopriae
+
+
+# xylanolysis (17 records):
+    Acidobacterium_capsulatum
+    Actinotalea_fermentans
+    Bacillus_subtilis
+    Bacteroides_fragilis
+    Chryseolinea_serpens
+    Fervidobacterium_riparium
+    Fibrobacter_succinogenes
+    Herbiconiux_moechotypicola
+    Melittangium_lichenicola
+    Rhodothermus_marinus
+    Rubrobacter_xylanophilus
+    Ruminococcus_flavefaciens
+    Saccharophagus_degradans
+    Singulisphaera_acidiphila
+    Sorangium_cellulosum
+    Telmatobacter_bradus
+    Thermoanaerobacter_thermocopriae
+
+
+# dark_sulfide_oxidation (2 records):
+    Rhodopseudomonas_palustris
+    Thiobacillus_denitrificans
+
+
+# dark_sulfur_oxidation (8 records):
+    Acidiphilium_acidophilum
+    Aquifex_pyrophilus
+    Sulfuricella_denitrificans
+    Sulfuriferula_multivorans
+    Sulfurifustis_variabilis
+    Sulfuritalea_hydrogenivorans
+    Thioalkalivibrio_sulfidiphilus
+    Thiobacillus_denitrificans
+
+
+# dark_thiosulfate_oxidation (18 records):
+    Acidiphilium_acidophilum
+    Aquifex_pyrophilus
+    Limnobacter_litoralis
+    Limnobacter_thiooxidans
+    Methylobacterium_goesingense
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+    Sulfuricella_denitrificans
+    Sulfuriferula_multivorans
+    Sulfurifustis_variabilis
+    Sulfuritalea_hydrogenivorans
+    Sulfurivirga_caldicuralii
+    Thioalkalivibrio_nitratireducens
+    Thiobacillus_denitrificans
+    Thiobacillus_thioparus
+    Thiobacillus_thiophilus
+    Thiohalobacter_thiocyanaticus
+    Tumebacillus_flagellatus
+
+
+# dark_oxidation_of_sulfur_compounds (20 records):
+    Acidiphilium_acidophilum
+    Aquifex_pyrophilus
+    Limnobacter_litoralis
+    Limnobacter_thiooxidans
+    Methylobacterium_goesingense
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+    Rhodopseudomonas_palustris
+    Sulfuricella_denitrificans
+    Sulfuriferula_multivorans
+    Sulfurifustis_variabilis
+    Sulfuritalea_hydrogenivorans
+    Sulfurivirga_caldicuralii
+    Thioalkalivibrio_nitratireducens
+    Thioalkalivibrio_sulfidiphilus
+    Thiobacillus_denitrificans
+    Thiobacillus_thioparus
+    Thiobacillus_thiophilus
+    Thiohalobacter_thiocyanaticus
+    Tumebacillus_flagellatus
+
+
+# manganese_oxidation (4 records):
+    Arthrobacter_globiformis
+    Bosea_thiooxidans
+    Herbaspirillum_seropedicae
+    Pedomicrobium_manganicum
+
+
+# manganese_respiration (6 records):
+    Desulfuromonas_svalbardensis
+    Geoalkalibacter_subterraneus
+    Georgfuchsia_toluolica
+    Geothrix_fermentans
+    Orenia_metallireducens
+    Rhodoferax_ferrireducens
+
+
+# ligninolysis (4 records):
+    Arthrobacter_globiformis
+    Bacillus_subtilis
+    Enterobacter_soli
+    Pseudomonas_fluorescens
+
+
+# fermentation (78 records):
+    [Clostridium]_fimetarium
+    [Clostridium]_herbivorans
+    Actinotalea_fermentans
+    Alistipes_shahii
+    Arthrobacter_globiformis
+    Bacillus_cereus
+    Caloramator_mitchellensis
+    Clostridium_acidisoli
+    Clostridium_drakei
+    Clostridium_frigidicarnis
+    Clostridium_novyi
+    Clostridium_pasteurianum
+    Clostridium_saccharoperbutylacetonicum
+    Clostridium_sardiniense
+    Clostridium_scatologenes
+    Desulfohalobium_retbaense
+    Desulfonatronovibrio_magnus
+    Desulforhopalus_vacuolatus
+    Desulfosoma_caldarium
+    Desulfovibrio_cuneatus
+    Desulfurispirillum_alkaliphilum
+    Dyadobacter_fermentans
+    Enterobacter_chengduensis
+    Enterobacter_chuandaensis
+    Enterobacter_cloacae
+    Enterobacter_mori
+    Enterobacter_oligotrophicus
+    Enterobacter_quasihormaechei
+    Enterobacter_quasiroggenkampii
+    Enterobacter_soli
+    Enterococcus_avium
+    Enterococcus_eurekensis
+    Enterococcus_lemanii
+    Eubacterium_coprostanoligenes
+    Eubacterium_oxidoreducens
+    Fervidobacterium_riparium
+    Geothrix_fermentans
+    Gluconacetobacter_diazotrophicus
+    Granulicatella_adiacens
+    Klebsiella_michiganensis
+    Klebsiella_pasteurii
+    Lactobacillus_amylovorus
+    Lactococcus_lactis
+    Lactococcus_taiwanensis
+    Leuconostoc_kimchii
+    Levilinea_saccharolytica
+    Orenia_metallireducens
+    Orenia_salinaria
+    Oxobacter_pfennigii
+    Pectinatus_cerevisiiphilus
+    Pediococcus_acidilactici
+    Pediococcus_claussenii
+    Pediococcus_ethanolidurans
+    Pediococcus_pentosaceus
+    Pediococcus_stilesii
+    Pelobacter_acidigallici
+    Pelotomaculum_thermopropionicum
+    Rhizomicrobium_electricum
+    Rhizomicrobium_palustre
+    Rhodopseudomonas_palustris
+    Ruminococcus_flavefaciens
+    Serratia_inhibens
+    Serratia_oryzae
+    Sorangium_cellulosum
+    Streptococcus_infantis
+    Streptococcus_marmotae
+    Streptococcus_mitis
+    Streptococcus_oralis
+    Streptococcus_parasanguinis
+    Streptococcus_periodonticum
+    Streptococcus_raffinosi
+    Streptococcus_rubneri
+    Streptococcus_salivarius
+    Streptococcus_thermophilus
+    Streptococcus_toyakuensis
+    Syntrophorhabdus_aromaticivorans
+    Syntrophothermus_lipocalidus
+    Telmatobacter_bradus
+
+
+# aerobic_chemoheterotrophy (109 records):
+    Acidisoma_sibiricum
+    Aciditerrimonas_ferrireducens
+    Acidobacterium_capsulatum
+    Acidovorax_temperans
+    Actinotalea_fermentans
+    Amnibacterium_kyonggiense
+    Anaeromyxobacter_dehalogenans
+    Angustibacter_aerolatus
+    Aquipuribacter_nitratireducens
+    Arenicella_xantha
+    Arsenicicoccus_dermatophilus
+    Arthrobacter_alkaliphilus
+    Asticcacaulis_benevestitus
+    Asticcacaulis_biprosthecium
+    Asticcacaulis_excentricus
+    Asticcacaulis_taihuensis
+    Azotobacter_nigricans
+    Azotobacter_vinelandii
+    Bauldia_litoralis
+    Brachymonas_chironomi
+    Bradyrhizobium_oligotrophicum
+    Bryobacter_aggregatus
+    Bryocella_elongata
+    Burkholderia_aenigmatica
+    Burkholderia_ambifaria
+    Burkholderia_catarinensis
+    Burkholderia_cepacia
+    Burkholderia_lata
+    Burkholderia_paludis
+    Burkholderia_rinojensis
+    Caulobacter_endophyticus
+    Caulobacter_fusiformis
+    Caulobacter_ginsengisoli
+    Caulobacter_hibisci
+    Caulobacter_rhizosphaerae
+    Caulobacter_segnis
+    Caulobacter_vibrioides
+    Caulobacter_zeae
+    Chloroflexus_aurantiacus
+    Chryseolinea_serpens
+    Conexibacter_arvalis
+    Conexibacter_woesei
+    Dechloromonas_denitrificans
+    Dechloromonas_hortensis
+    Denitratisoma_oestradiolicum
+    Dyella_jiangningensis
+    Flavitalea_populi
+    Gaiella_occulta
+    Gemmatimonas_aurantiaca
+    Geobacillus_jurassicus
+    Geobacillus_stearothermophilus
+    Gordonia_paraffinivorans
+    Herbiconiux_moechotypicola
+    Herminiimonas_arsenicoxydans
+    Hydrotalea_sandarakina
+    Iamia_majanohamensis
+    Ilumatobacter_fluminis
+    Jatrophihabitans_endophyticus
+    Jatrophihabitans_fulvus
+    Jatrophihabitans_soli
+    Kaistia_adipata
+    Labrys_neptuniae
+    Labrys_wisconsinensis
+    Lapillicoccus_jejuensis
+    Limnobacter_litoralis
+    Limnobacter_thiooxidans
+    Litorilinea_aerophila
+    Marinobacterium_litorale
+    Nevskia_aquatilis
+    Nevskia_persephonica
+    Nevskia_soli
+    Nevskia_terrae
+    Nocardioides_mesophilus
+    Ottowia_thiooxydans
+    Pannonibacter_phragmitetus
+    Patulibacter_brassicae
+    Patulibacter_ginsengiterrae
+    Patulibacter_medicamentivorans
+    Patulibacter_minatonensis
+    Pedomicrobium_americanum
+    Pedomicrobium_australicum
+    Pedomicrobium_ferrugineum
+    Pedomicrobium_manganicum
+    Phaselicystis_flava
+    Phenylobacterium_muchangponense
+    Pleomorphomonas_diazotrophica
+    Polaromonas_naphthalenivorans
+    Polaromonas_vacuolata
+    Rhizomicrobium_electricum
+    Rhodoferax_ferrireducens
+    Rhodopseudomonas_palustris
+    Rhodovastum_atsumiense
+    Salinisphaera_orenii
+    Segetibacter_koreensis
+    Stenotrophomonas_beteli
+    Stenotrophomonas_forensis
+    Stenotrophomonas_humi
+    Stenotrophomonas_maltophilia
+    Stenotrophomonas_nematodicola
+    Stenotrophomonas_panacihumi
+    Stenotrophomonas_pavanii
+    Sulfuriferula_multivorans
+    Telmatobacter_bradus
+    Thermaerobacter_composti
+    Tistlia_consotensis
+    Tistrella_bauzanensis
+    Tistrella_mobilis
+    Tumebacillus_flagellatus
+    Xanthobacter_oligotrophicus
+
+
+# invertebrate_parasites (5 records):
+    Bacillus_cereus
+    Pseudomonas_chlororaphis
+    Pseudomonas_entomophila
+    Pseudomonas_fluorescens
+    Yersinia_entomophaga
+
+
+# human_pathogens_septicemia (3 records):
+    Pseudomonas_aeruginosa
+    Staphylococcus_aureus
+    Staphylococcus_capitis
+
+
+# human_pathogens_pneumonia (4 records):
+    Bacillus_cereus
+    Pseudomonas_aeruginosa
+    Staphylococcus_aureus
+    Staphylococcus_capitis
+
+
+# human_pathogens_nosocomia (3 records):
+    Acinetobacter_calcoaceticus
+    Acinetobacter_junii
+    Empedobacter_brevis
+
+
+# human_pathogens_meningitis (0 records):
+
+
+# human_pathogens_gastroenteritis (1 records):
+    Staphylococcus_aureus
+
+
+# human_pathogens_diarrhea (1 records):
+    Bacteroides_fragilis
+
+
+# human_pathogens_all (32 records):
+    Achromobacter_denitrificans
+    Acinetobacter_calcoaceticus
+    Acinetobacter_junii
+    Acinetobacter_pittii
+    Aeromonas_hydrophila
+    Bacillus_cereus
+    Bacteroides_fragilis
+    Brucella_inopinata
+    Burkholderia_cepacia
+    Coxiella_burnetii
+    Dermabacter_hominis
+    Empedobacter_brevis
+    Enterobacter_cloacae
+    Escherichia_fergusonii
+    Francisella_tularensis
+    Helicobacter_cinaedi
+    Kingella_kingae
+    Legionella_pneumophila
+    Pseudomonas_aeruginosa
+    Staphylococcus_aureus
+    Staphylococcus_capitis
+    Staphylococcus_pseudintermedius
+    Staphylococcus_saprophyticus
+    Stenotrophomonas_beteli
+    Stenotrophomonas_forensis
+    Stenotrophomonas_humi
+    Stenotrophomonas_maltophilia
+    Stenotrophomonas_nematodicola
+    Stenotrophomonas_panacihumi
+    Stenotrophomonas_pavanii
+    Streptococcus_mitis
+    Streptococcus_oralis
+
+
+# fish_parasites (0 records):
+
+
+# human_gut (21 records):
+    [Ruminococcus]_torques
+    Acidaminococcus_provencensis
+    Acidaminococcus_timonensis
+    Alistipes_putredinis
+    Bacteroides_fragilis
+    Bifidobacterium_adolescentis
+    Bifidobacterium_catenulatum
+    Bifidobacterium_dentium
+    Blautia_hansenii
+    Blautia_wexlerae
+    Collinsella_aerofaciens
+    Coprococcus_eutactus
+    Dorea_formicigenerans
+    Enhydrobacter_aerosaccus
+    Eubacterium_ventriosum
+    Faecalibacterium_prausnitzii
+    Roseburia_hominis
+    Roseburia_inulinivorans
+    Ruminococcus_champanellensis
+    Staphylococcus_aureus
+    Streptococcus_thermophilus
+
+
+# human_associated (52 records):
+    [Ruminococcus]_torques
+    Achromobacter_denitrificans
+    Acidaminococcus_provencensis
+    Acidaminococcus_timonensis
+    Acinetobacter_calcoaceticus
+    Acinetobacter_junii
+    Acinetobacter_pittii
+    Aeromonas_hydrophila
+    Alistipes_putredinis
+    Bacillus_cereus
+    Bacteroides_fragilis
+    Bifidobacterium_adolescentis
+    Bifidobacterium_catenulatum
+    Bifidobacterium_dentium
+    Blautia_hansenii
+    Blautia_wexlerae
+    Brucella_inopinata
+    Burkholderia_cepacia
+    Collinsella_aerofaciens
+    Coprococcus_eutactus
+    Coxiella_burnetii
+    Dermabacter_hominis
+    Dorea_formicigenerans
+    Empedobacter_brevis
+    Enhydrobacter_aerosaccus
+    Enterobacter_cloacae
+    Escherichia_fergusonii
+    Eubacterium_ventriosum
+    Faecalibacterium_prausnitzii
+    Francisella_tularensis
+    Helicobacter_cinaedi
+    Kingella_kingae
+    Legionella_pneumophila
+    Pseudomonas_aeruginosa
+    Roseburia_hominis
+    Roseburia_inulinivorans
+    Ruminococcus_champanellensis
+    Staphylococcus_aureus
+    Staphylococcus_capitis
+    Staphylococcus_pseudintermedius
+    Staphylococcus_saprophyticus
+    Stenotrophomonas_beteli
+    Stenotrophomonas_forensis
+    Stenotrophomonas_humi
+    Stenotrophomonas_maltophilia
+    Stenotrophomonas_nematodicola
+    Stenotrophomonas_panacihumi
+    Stenotrophomonas_pavanii
+    Streptococcus_mitis
+    Streptococcus_oralis
+    Streptococcus_salivarius
+    Streptococcus_thermophilus
+
+
+# mammal_gut (21 records):
+    [Ruminococcus]_torques
+    Acidaminococcus_provencensis
+    Acidaminococcus_timonensis
+    Alistipes_putredinis
+    Bacteroides_fragilis
+    Bifidobacterium_adolescentis
+    Bifidobacterium_catenulatum
+    Bifidobacterium_dentium
+    Blautia_hansenii
+    Blautia_wexlerae
+    Collinsella_aerofaciens
+    Coprococcus_eutactus
+    Dorea_formicigenerans
+    Enhydrobacter_aerosaccus
+    Eubacterium_ventriosum
+    Faecalibacterium_prausnitzii
+    Roseburia_hominis
+    Roseburia_inulinivorans
+    Ruminococcus_champanellensis
+    Staphylococcus_aureus
+    Streptococcus_thermophilus
+
+
+# animal_parasites_or_symbionts (58 records):
+    [Ruminococcus]_torques
+    Achromobacter_denitrificans
+    Acidaminococcus_provencensis
+    Acidaminococcus_timonensis
+    Acinetobacter_calcoaceticus
+    Acinetobacter_junii
+    Acinetobacter_pittii
+    Aeromonas_hydrophila
+    Alistipes_putredinis
+    Bacillus_cereus
+    Bacteroides_fragilis
+    Bifidobacterium_adolescentis
+    Bifidobacterium_catenulatum
+    Bifidobacterium_dentium
+    Blautia_hansenii
+    Blautia_wexlerae
+    Brucella_inopinata
+    Burkholderia_cepacia
+    Collinsella_aerofaciens
+    Coprococcus_eutactus
+    Coxiella_burnetii
+    Dermabacter_hominis
+    Dichelobacter_nodosus
+    Dorea_formicigenerans
+    Empedobacter_brevis
+    Enhydrobacter_aerosaccus
+    Enterobacter_cloacae
+    Escherichia_fergusonii
+    Eubacterium_ventriosum
+    Faecalibacterium_prausnitzii
+    Fibrobacter_succinogenes
+    Francisella_tularensis
+    Helicobacter_cinaedi
+    Helicobacter_trogontum
+    Kingella_kingae
+    Legionella_pneumophila
+    Pseudomonas_aeruginosa
+    Pseudomonas_chlororaphis
+    Pseudomonas_entomophila
+    Pseudomonas_fluorescens
+    Roseburia_hominis
+    Roseburia_inulinivorans
+    Ruminococcus_champanellensis
+    Staphylococcus_aureus
+    Staphylococcus_capitis
+    Staphylococcus_pseudintermedius
+    Staphylococcus_saprophyticus
+    Stenotrophomonas_beteli
+    Stenotrophomonas_forensis
+    Stenotrophomonas_humi
+    Stenotrophomonas_maltophilia
+    Stenotrophomonas_nematodicola
+    Stenotrophomonas_panacihumi
+    Stenotrophomonas_pavanii
+    Streptococcus_mitis
+    Streptococcus_oralis
+    Streptococcus_thermophilus
+    Yersinia_entomophaga
+
+
+# plant_pathogen (19 records):
+    Acetobacter_pasteurianus
+    Agrobacterium_radiobacter
+    Agrobacterium_tumefaciens
+    Agrobacterium_vitis
+    Bacillus_subtilis
+    Brevundimonas_diminuta
+    Burkholderia_ambifaria
+    Burkholderia_cepacia
+    Curtobacterium_flaccumfaciens
+    Curtobacterium_pusillum
+    Lactococcus_lactis
+    Pectobacterium_betavasculorum
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+    Rhizobium_leguminosarum
+    Rhizobium_tropici
+    Staphylococcus_aureus
+    Stenotrophomonas_maltophilia
+    Xylella_fastidiosa
+
+
+# oil_bioremediation (2 records):
+    Geobacillus_jurassicus
+    Pseudomonas_nitroreducens
+
+
+# aromatic_hydrocarbon_degradation (9 records):
+    Algiphilus_aromaticivorans
+    Burkholderia_cepacia
+    Comamonas_testosteroni
+    Georgfuchsia_toluolica
+    Novosphingobium_pentaromativorans
+    Polaromonas_naphthalenivorans
+    Porticoccus_hydrocarbonoclasticus
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+
+
+# aromatic_compound_degradation (19 records):
+    Algiphilus_aromaticivorans
+    Burkholderia_cepacia
+    Clostridium_tetani
+    Comamonas_testosteroni
+    Dehalococcoides_mccartyi
+    Geopsychrobacter_electrodiphilus
+    Georgfuchsia_toluolica
+    Gordonia_paraffinivorans
+    Holophaga_foetida
+    Hydrocarboniphaga_effusa
+    Methylibium_petroleiphilum
+    Nocardioides_aromaticivorans
+    Novosphingobium_pentaromativorans
+    Polaromonas_naphthalenivorans
+    Porticoccus_hydrocarbonoclasticus
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+    Stenotrophomonas_maltophilia
+    Syntrophorhabdus_aromaticivorans
+
+
+# aliphatic_non_methane_hydrocarbon_degradation (6 records):
+    Algiphilus_aromaticivorans
+    Alkanindiges_illinoisensis
+    Geobacillus_jurassicus
+    Geobacillus_stearothermophilus
+    Hydrocarboniphaga_daqingensis
+    Hydrocarboniphaga_effusa
+
+
+# hydrocarbon_degradation (36 records):
+    Algiphilus_aromaticivorans
+    Alkanindiges_illinoisensis
+    Burkholderia_cepacia
+    Comamonas_testosteroni
+    Geobacillus_jurassicus
+    Geobacillus_stearothermophilus
+    Georgfuchsia_toluolica
+    Hydrocarboniphaga_daqingensis
+    Hydrocarboniphaga_effusa
+    Methylobacter_luteus
+    Methylobacter_marinus
+    Methylobacter_whittenburyi
+    Methylocaldum_gracile
+    Methylocaldum_szegediense
+    Methylocaldum_tepidum
+    Methylocapsa_acidiphila
+    Methylocapsa_palsarum
+    Methylocella_palustris
+    Methylocella_silvestris
+    Methylocella_tundrae
+    Methylococcus_capsulatus
+    Methylococcus_geothermalis
+    Methylocystis_bryophila
+    Methylocystis_echinoides
+    Methylocystis_heyeri
+    Methyloferula_stellata
+    Methylomicrobium_album
+    Methylomicrobium_lacus
+    Methylomonas_methanica
+    Methylosarcina_fibrata
+    Methylosarcina_quisquiliarum
+    Novosphingobium_pentaromativorans
+    Polaromonas_naphthalenivorans
+    Porticoccus_hydrocarbonoclasticus
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+
+
+# dark_iron_oxidation (12 records):
+    Acidiferrobacter_thiooxydans
+    Acidimicrobium_ferrooxidans
+    Acidithiobacillus_ferrivorans
+    Azospira_oryzae
+    Ferrimicrobium_acidiphilum
+    Ferrithrix_thermotolerans
+    Ferritrophicum_radicicola
+    Ferrovum_myxofaciens
+    Leptospirillum_ferriphilum
+    Rhodopseudomonas_palustris
+    Sideroxydans_lithotrophicus
+    Thiobacillus_denitrificans
+
+
+# iron_respiration (14 records):
+    Aciditerrimonas_ferrireducens
+    Aeromonas_hydrophila
+    Anaeromyxobacter_dehalogenans
+    Ferribacterium_limneticum
+    Geoalkalibacter_ferrihydriticus
+    Geoalkalibacter_subterraneus
+    Geopsychrobacter_electrodiphilus
+    Georgfuchsia_toluolica
+    Geothermobacter_ehrlichii
+    Geothrix_fermentans
+    Geovibrio_ferrireducens
+    Orenia_metallireducens
+    Rhizomicrobium_electricum
+    Rhodoferax_ferrireducens
+
+
+# nitrate_respiration (44 records):
+    Acidovorax_temperans
+    Anaeromyxobacter_dehalogenans
+    Aquifex_pyrophilus
+    Arthrobacter_globiformis
+    Azospirillum_brasilense
+    Bacillus_cereus
+    Bacillus_subtilis
+    Bradyrhizobium_denitrificans
+    Bradyrhizobium_japonicum
+    Dechloromonas_denitrificans
+    Dechloromonas_hortensis
+    Denitratisoma_oestradiolicum
+    Desulfurispirillum_alkaliphilum
+    Enterobacter_cloacae
+    Ferribacterium_limneticum
+    Geoalkalibacter_subterraneus
+    Geobacillus_thermodenitrificans
+    Georgfuchsia_toluolica
+    Geothermobacter_ehrlichii
+    Geothrix_fermentans
+    Herbaspirillum_seropedicae
+    Iamia_majanohamensis
+    Microlunatus_aurantiacus
+    Nisaea_denitrificans
+    Nitratiruptor_tergarcus
+    Ottowia_thiooxydans
+    Pannonibacter_phragmitetus
+    Pseudomonas_aeruginosa
+    Pseudomonas_azotoformans
+    Pseudomonas_chlororaphis
+    Pseudomonas_nitroreducens
+    Rhizomicrobium_electricum
+    Rhodoferax_ferrireducens
+    Rugamonas_rubra
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Sulfuriferula_multivorans
+    Sulfuritalea_hydrogenivorans
+    Thermodesulfobium_narugense
+    Thermovibrio_ammonificans
+    Thioalkalivibrio_nitratireducens
+    Thiobacillus_denitrificans
+    Thiobacillus_thiophilus
+    Wolinella_succinogenes
+
+
+# nitrate_reduction (94 records):
+    Acidiphilium_multivorum
+    Acidovorax_temperans
+    Actinotalea_fermentans
+    Anaeromyxobacter_dehalogenans
+    Aquifex_pyrophilus
+    Aquipuribacter_nitratireducens
+    Arenimonas_maotaiensis
+    Arsenicicoccus_dermatophilus
+    Arthrobacter_globiformis
+    Arthrobacter_oryzae
+    Azospirillum_brasilense
+    Bacillus_cereus
+    Bacillus_pacificus
+    Bacillus_subtilis
+    Brachymonas_chironomi
+    Bradyrhizobium_denitrificans
+    Bradyrhizobium_japonicum
+    Brevibacillus_borstelensis
+    Brevibacillus_brevis
+    Brevibacillus_formosus
+    Catenulispora_subtropica
+    Chitinophaga_terrae
+    Conexibacter_arvalis
+    Conexibacter_woesei
+    Craurococcus_roseus
+    Cryptosporangium_aurantiacum
+    Cryptosporangium_minutisporangium
+    Dechloromonas_denitrificans
+    Dechloromonas_hortensis
+    Denitratisoma_oestradiolicum
+    Desulfurispirillum_alkaliphilum
+    Enhydrobacter_aerosaccus
+    Enterobacter_cloacae
+    Ferribacterium_limneticum
+    Gaiella_occulta
+    Geoalkalibacter_subterraneus
+    Geobacillus_thermodenitrificans
+    Georgfuchsia_toluolica
+    Geothermobacter_ehrlichii
+    Geothrix_fermentans
+    Helicobacter_cinaedi
+    Herbaspirillum_seropedicae
+    Hyphomicrobium_denitrificans
+    Iamia_majanohamensis
+    Janthinobacterium_lividum
+    Leifsonia_rubra
+    Methylobacillus_flagellatus
+    Methylobacillus_glycogenes
+    Methylophilus_methylotrophus
+    Microbacterium_luticocti
+    Microlunatus_aurantiacus
+    Neisseria_elongata
+    Neisseria_flavescens
+    Nisaea_denitrificans
+    Nitratiruptor_tergarcus
+    Ottowia_thiooxydans
+    Pannonibacter_phragmitetus
+    Patulibacter_minatonensis
+    Pedomicrobium_americanum
+    Pedomicrobium_australicum
+    Pedomicrobium_ferrugineum
+    Pseudomonas_aeruginosa
+    Pseudomonas_azotoformans
+    Pseudomonas_chlororaphis
+    Pseudomonas_nitroreducens
+    Rhizomicrobium_electricum
+    Rhodococcus_gordoniae
+    Rhodoferax_ferrireducens
+    Rothia_dentocariosa
+    Rothia_mucilaginosa
+    Rugamonas_rubra
+    Salinicoccus_luteus
+    Sanguibacter_antarcticus
+    Sporichthya_polymorpha
+    Staphylococcus_aureus
+    Staphylococcus_capitis
+    Staphylococcus_equorum
+    Staphylococcus_pseudintermedius
+    Staphylococcus_saccharolyticus
+    Staphylococcus_saprophyticus
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Sulfuriferula_multivorans
+    Sulfuritalea_hydrogenivorans
+    Thermodesulfobium_narugense
+    Thermovibrio_ammonificans
+    Thioalkalivibrio_nitratireducens
+    Thiobacillus_denitrificans
+    Thiobacillus_thioparus
+    Thiobacillus_thiophilus
+    Tistrella_bauzanensis
+    Tistrella_mobilis
+    Tumebacillus_flagellatus
+    Wolinella_succinogenes
+
+
+# nitrogen_respiration (46 records):
+    Acidovorax_temperans
+    Anaeromyxobacter_dehalogenans
+    Aquifex_pyrophilus
+    Arthrobacter_globiformis
+    Azospirillum_brasilense
+    Bacillus_cereus
+    Bacillus_subtilis
+    Bradyrhizobium_denitrificans
+    Bradyrhizobium_japonicum
+    Dechloromonas_denitrificans
+    Dechloromonas_hortensis
+    Denitratisoma_oestradiolicum
+    Desulfurispirillum_alkaliphilum
+    Enterobacter_cloacae
+    Ferribacterium_limneticum
+    Geoalkalibacter_subterraneus
+    Geobacillus_thermodenitrificans
+    Georgfuchsia_toluolica
+    Geothermobacter_ehrlichii
+    Geothrix_fermentans
+    Herbaspirillum_seropedicae
+    Iamia_majanohamensis
+    Microlunatus_aurantiacus
+    Nisaea_denitrificans
+    Nisaea_nitritireducens
+    Nitratiruptor_tergarcus
+    Ottowia_thiooxydans
+    Pannonibacter_phragmitetus
+    Pseudomonas_aeruginosa
+    Pseudomonas_azotoformans
+    Pseudomonas_chlororaphis
+    Pseudomonas_fluorescens
+    Pseudomonas_nitroreducens
+    Rhizomicrobium_electricum
+    Rhodoferax_ferrireducens
+    Rugamonas_rubra
+    Steroidobacter_denitrificans
+    Sulfuricella_denitrificans
+    Sulfuriferula_multivorans
+    Sulfuritalea_hydrogenivorans
+    Thermodesulfobium_narugense
+    Thermovibrio_ammonificans
+    Thioalkalivibrio_nitratireducens
+    Thiobacillus_denitrificans
+    Thiobacillus_thiophilus
+    Wolinella_succinogenes
+
+
+# fumarate_respiration (8 records):
+    Anaeromyxobacter_dehalogenans
+    Dechloromonas_denitrificans
+    Desulfurispirillum_alkaliphilum
+    Desulfuromonas_svalbardensis
+    Ferribacterium_limneticum
+    Rhizomicrobium_electricum
+    Rhodoferax_ferrireducens
+    Wolinella_succinogenes
+
+
+# intracellular_parasites (0 records):
+
+
+# chlorate_reducers (1 records):
+    Dechloromonas_hortensis
+
+
+# predatory_or_exoparasitic (0 records):
+
+
+# chloroplasts (0 records):
+
+
+# nonphotosynthetic_cyanobacteria (0 records):
+
+
+# photosynthetic_cyanobacteria (0 records):
+
+
+# anoxygenic_photoautotrophy_H2_oxidizing (3 records):
+    Rhodopseudomonas_palustris
+    Rhodovastum_atsumiense
+    Thiohalocapsa_halophila
+
+
+# anoxygenic_photoautotrophy_S_oxidizing (6 records):
+    Blastochloris_viridis
+    Chloroflexus_aurantiacus
+    Halorhodospira_halophila
+    Rhodopseudomonas_julia
+    Rhodopseudomonas_palustris
+    Thiohalocapsa_halophila
+
+
+# anoxygenic_photoautotrophy_Fe_oxidizing (1 records):
+    Rhodopseudomonas_palustris
+
+
+# anoxygenic_photoautotrophy (7 records):
+    Blastochloris_viridis
+    Chloroflexus_aurantiacus
+    Halorhodospira_halophila
+    Rhodopseudomonas_julia
+    Rhodopseudomonas_palustris
+    Rhodovastum_atsumiense
+    Thiohalocapsa_halophila
+
+
+# oxygenic_photoautotrophy (0 records):
+
+
+# photoautotrophy (7 records):
+    Blastochloris_viridis
+    Chloroflexus_aurantiacus
+    Halorhodospira_halophila
+    Rhodopseudomonas_julia
+    Rhodopseudomonas_palustris
+    Rhodovastum_atsumiense
+    Thiohalocapsa_halophila
+
+
+# aerobic_anoxygenic_phototrophy (9 records):
+    Acidiphilium_acidophilum
+    Acidiphilium_multivorum
+    Acidisphaera_rubrifaciens
+    Chloroflexus_aurantiacus
+    Craurococcus_roseus
+    Erythrobacter_longus
+    Methylobacterium_radiotolerans
+    Rhodopseudomonas_palustris
+    Sandarakinorhabdus_limnophila
+
+
+# photoheterotrophy (17 records):
+    Acidiphilium_acidophilum
+    Acidiphilium_multivorum
+    Acidisphaera_rubrifaciens
+    Chloracidobacterium_thermophilum
+    Chloroflexus_aurantiacus
+    Craurococcus_roseus
+    Ectothiorhodosinus_mongolicus
+    Erythrobacter_longus
+    Halorhodospira_abdelmalekii
+    Halorhodospira_halophila
+    Halorhodospira_neutriphila
+    Methylobacterium_radiotolerans
+    Phaeovibrio_sulfidiphilus
+    Rhodopseudomonas_palustris
+    Rhodovastum_atsumiense
+    Sandarakinorhabdus_limnophila
+    Thiorhodospira_sibirica
+
+
+# phototrophy (20 records):
+    Acidiphilium_acidophilum
+    Acidiphilium_multivorum
+    Acidisphaera_rubrifaciens
+    Blastochloris_viridis
+    Chloracidobacterium_thermophilum
+    Chloroflexus_aurantiacus
+    Craurococcus_roseus
+    Ectothiorhodosinus_mongolicus
+    Erythrobacter_longus
+    Halorhodospira_abdelmalekii
+    Halorhodospira_halophila
+    Halorhodospira_neutriphila
+    Methylobacterium_radiotolerans
+    Phaeovibrio_sulfidiphilus
+    Rhodopseudomonas_julia
+    Rhodopseudomonas_palustris
+    Rhodovastum_atsumiense
+    Sandarakinorhabdus_limnophila
+    Thiohalocapsa_halophila
+    Thiorhodospira_sibirica
+
+
+# plastic_degradation (8 records):
+    Agrobacterium_radiobacter
+    Burkholderia_cepacia
+    Comamonas_testosteroni
+    Methylobacterium_mesophilicum
+    Pelotomaculum_thermopropionicum
+    Pseudomonas_aeruginosa
+    Pseudomonas_chlororaphis
+    Pseudomonas_fluorescens
+
+
+# ureolysis (30 records):
+    Acidiphilium_multivorum
+    Arenimonas_maotaiensis
+    Arthrobacter_alkaliphilus
+    Chitinophaga_ginsengisoli
+    Chitinophaga_pinensis
+    Chromatium_okenii
+    Coraliomargarita_akajimensis
+    Gordonia_paraffinivorans
+    Helicobacter_trogontum
+    Herbaspirillum_seropedicae
+    Hyphomicrobium_denitrificans
+    Kineosporia_mikuniensis
+    Kineosporia_rhamnosa
+    Kineosporia_succinea
+    Methylobacillus_flagellatus
+    Methylobacillus_glycogenes
+    Methylobacter_luteus
+    Nitrosococcus_oceani
+    Pandoraea_apista
+    Pannonibacter_phragmitetus
+    Polaromonas_vacuolata
+    Pseudomonas_orientalis
+    Rhodococcus_qingshengii
+    Segniliparus_rotundus
+    Sphingobacterium_kitahiroshimense
+    Sporocytophaga_myxococcoides
+    Staphylococcus_equorum
+    Staphylococcus_pseudintermedius
+    Staphylococcus_saprophyticus
+    Staphylococcus_succinus
+
+
+# reductive_acetogenesis (9 records):
+    Acetonema_longum
+    Clostridium_carboxidivorans
+    Clostridium_drakei
+    Clostridium_ljungdahlii
+    Clostridium_scatologenes
+    Holophaga_foetida
+    Natroniella_acetigena
+    Oxobacter_pfennigii
+    Syntrophococcus_sucromutans
+
+
+# chemoheterotrophy (254 records):
+    [Clostridium]_fimetarium
+    [Clostridium]_herbivorans
+    Acidisoma_sibiricum
+    Aciditerrimonas_ferrireducens
+    Acidobacterium_capsulatum
+    Acidothermus_cellulolyticus
+    Acidovorax_temperans
+    Actinotalea_fermentans
+    Algiphilus_aromaticivorans
+    Alistipes_shahii
+    Alkanindiges_illinoisensis
+    Amnibacterium_kyonggiense
+    Anaeromyxobacter_dehalogenans
+    Angustibacter_aerolatus
+    Aquipuribacter_nitratireducens
+    Archangium_gephyra
+    Arenicella_xantha
+    Arsenicicoccus_dermatophilus
+    Arthrobacter_alkaliphilus
+    Arthrobacter_globiformis
+    Asticcacaulis_benevestitus
+    Asticcacaulis_biprosthecium
+    Asticcacaulis_excentricus
+    Asticcacaulis_taihuensis
+    Azotobacter_nigricans
+    Azotobacter_vinelandii
+    Bacillus_cereus
+    Bacillus_subtilis
+    Bacteroides_fragilis
+    Bauldia_litoralis
+    Brachymonas_chironomi
+    Bradyrhizobium_oligotrophicum
+    Bryobacter_aggregatus
+    Bryocella_elongata
+    Burkholderia_aenigmatica
+    Burkholderia_ambifaria
+    Burkholderia_catarinensis
+    Burkholderia_cepacia
+    Burkholderia_lata
+    Burkholderia_paludis
+    Burkholderia_rinojensis
+    Byssovorax_cruenta
+    Caloramator_mitchellensis
+    Caulobacter_endophyticus
+    Caulobacter_fusiformis
+    Caulobacter_ginsengisoli
+    Caulobacter_hibisci
+    Caulobacter_rhizosphaerae
+    Caulobacter_segnis
+    Caulobacter_vibrioides
+    Caulobacter_zeae
+    Chitinibacter_tainanensis
+    Chitinophaga_ginsengisoli
+    Chitinophaga_pinensis
+    Chloroflexus_aurantiacus
+    Chryseolinea_serpens
+    Clostridium_acidisoli
+    Clostridium_carboxidivorans
+    Clostridium_drakei
+    Clostridium_frigidicarnis
+    Clostridium_novyi
+    Clostridium_pasteurianum
+    Clostridium_saccharoperbutylacetonicum
+    Clostridium_sardiniense
+    Clostridium_scatologenes
+    Clostridium_tetani
+    Comamonas_testosteroni
+    Conexibacter_arvalis
+    Conexibacter_woesei
+    Cytophaga_hutchinsonii
+    Dechloromonas_denitrificans
+    Dechloromonas_hortensis
+    Dehalococcoides_mccartyi
+    Delftia_lacustris
+    Denitratisoma_oestradiolicum
+    Desulfohalobium_retbaense
+    Desulfonatronovibrio_magnus
+    Desulforhopalus_vacuolatus
+    Desulfosoma_caldarium
+    Desulfovibrio_cuneatus
+    Desulfurispirillum_alkaliphilum
+    Dyadobacter_fermentans
+    Dyella_jiangningensis
+    Enterobacter_chengduensis
+    Enterobacter_chuandaensis
+    Enterobacter_cloacae
+    Enterobacter_mori
+    Enterobacter_oligotrophicus
+    Enterobacter_quasihormaechei
+    Enterobacter_quasiroggenkampii
+    Enterobacter_soli
+    Enterococcus_avium
+    Enterococcus_eurekensis
+    Enterococcus_lemanii
+    Eubacterium_coprostanoligenes
+    Eubacterium_oxidoreducens
+    Fervidobacterium_riparium
+    Fibrobacter_succinogenes
+    Flavitalea_populi
+    Gaiella_occulta
+    Gemmatimonas_aurantiaca
+    Geobacillus_jurassicus
+    Geobacillus_stearothermophilus
+    Geopsychrobacter_electrodiphilus
+    Georgfuchsia_toluolica
+    Geothrix_fermentans
+    Gluconacetobacter_diazotrophicus
+    Gordonia_paraffinivorans
+    Granulicatella_adiacens
+    Herbiconiux_moechotypicola
+    Herminiimonas_arsenicoxydans
+    Holophaga_foetida
+    Hydrocarboniphaga_daqingensis
+    Hydrocarboniphaga_effusa
+    Hydrotalea_sandarakina
+    Iamia_majanohamensis
+    Ilumatobacter_fluminis
+    Janthinobacterium_lividum
+    Jatrophihabitans_endophyticus
+    Jatrophihabitans_fulvus
+    Jatrophihabitans_soli
+    Kaistia_adipata
+    Klebsiella_michiganensis
+    Klebsiella_pasteurii
+    Labrys_neptuniae
+    Labrys_wisconsinensis
+    Lactobacillus_amylovorus
+    Lactococcus_lactis
+    Lactococcus_taiwanensis
+    Lapillicoccus_jejuensis
+    Leuconostoc_kimchii
+    Levilinea_saccharolytica
+    Limnobacter_litoralis
+    Limnobacter_thiooxidans
+    Litorilinea_aerophila
+    Marinobacterium_litorale
+    Melittangium_lichenicola
+    Methylibium_petroleiphilum
+    Methylobacillus_flagellatus
+    Methylobacillus_glycogenes
+    Methylobacter_luteus
+    Methylobacter_marinus
+    Methylobacter_whittenburyi
+    Methylocaldum_gracile
+    Methylocaldum_szegediense
+    Methylocaldum_tepidum
+    Methylocapsa_acidiphila
+    Methylocapsa_palsarum
+    Methylocella_palustris
+    Methylocella_silvestris
+    Methylocella_tundrae
+    Methylococcus_capsulatus
+    Methylococcus_geothermalis
+    Methylocystis_bryophila
+    Methylocystis_echinoides
+    Methylocystis_heyeri
+    Methyloferula_stellata
+    Methylomicrobium_album
+    Methylomicrobium_lacus
+    Methylomonas_methanica
+    Methylophilus_aquaticus
+    Methylophilus_leisingeri
+    Methylophilus_methylotrophus
+    Methylophilus_rhizosphaerae
+    Methylosarcina_fibrata
+    Methylosarcina_quisquiliarum
+    Methylovirgula_ligni
+    Nevskia_aquatilis
+    Nevskia_persephonica
+    Nevskia_soli
+    Nevskia_terrae
+    Nocardioides_aromaticivorans
+    Nocardioides_mesophilus
+    Novosphingobium_pentaromativorans
+    Orenia_metallireducens
+    Orenia_salinaria
+    Ottowia_thiooxydans
+    Oxobacter_pfennigii
+    Pannonibacter_phragmitetus
+    Paracoccus_alcaliphilus
+    Patulibacter_brassicae
+    Patulibacter_ginsengiterrae
+    Patulibacter_medicamentivorans
+    Patulibacter_minatonensis
+    Pectinatus_cerevisiiphilus
+    Pediococcus_acidilactici
+    Pediococcus_claussenii
+    Pediococcus_ethanolidurans
+    Pediococcus_pentosaceus
+    Pediococcus_stilesii
+    Pedomicrobium_americanum
+    Pedomicrobium_australicum
+    Pedomicrobium_ferrugineum
+    Pedomicrobium_manganicum
+    Pelobacter_acidigallici
+    Pelotomaculum_thermopropionicum
+    Phaselicystis_flava
+    Phenylobacterium_muchangponense
+    Pleomorphomonas_diazotrophica
+    Polaromonas_naphthalenivorans
+    Polaromonas_vacuolata
+    Porticoccus_hydrocarbonoclasticus
+    Pseudomonas_aeruginosa
+    Pseudomonas_fluorescens
+    Pseudomonas_nitroreducens
+    Pseudomonas_oleovorans
+    Rhizomicrobium_electricum
+    Rhizomicrobium_palustre
+    Rhodoferax_ferrireducens
+    Rhodopseudomonas_palustris
+    Rhodothermus_marinus
+    Rhodovastum_atsumiense
+    Rubrobacter_xylanophilus
+    Ruminococcus_champanellensis
+    Ruminococcus_flavefaciens
+    Saccharophagus_degradans
+    Salinisphaera_orenii
+    Segetibacter_koreensis
+    Serratia_inhibens
+    Serratia_oryzae
+    Singulisphaera_acidiphila
+    Sorangium_cellulosum
+    Sporocytophaga_myxococcoides
+    Sporomusa_malonica
+    Stenotrophomonas_beteli
+    Stenotrophomonas_forensis
+    Stenotrophomonas_humi
+    Stenotrophomonas_maltophilia
+    Stenotrophomonas_nematodicola
+    Stenotrophomonas_panacihumi
+    Stenotrophomonas_pavanii
+    Streptococcus_infantis
+    Streptococcus_marmotae
+    Streptococcus_mitis
+    Streptococcus_oralis
+    Streptococcus_parasanguinis
+    Streptococcus_periodonticum
+    Streptococcus_raffinosi
+    Streptococcus_rubneri
+    Streptococcus_salivarius
+    Streptococcus_thermophilus
+    Streptococcus_toyakuensis
+    Streptomyces_eurythermus
+    Sulfuriferula_multivorans
+    Syntrophorhabdus_aromaticivorans
+    Syntrophothermus_lipocalidus
+    Telmatobacter_bradus
+    Thermaerobacter_composti
+    Thermoanaerobacter_thermocopriae
+    Tistlia_consotensis
+    Tistrella_bauzanensis
+    Tistrella_mobilis
+    Tumebacillus_flagellatus
+    Xanthobacter_oligotrophicus
+
+
